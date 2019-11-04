@@ -47,3 +47,8 @@ git clone https://github.com/alecebado/DHPRUEBA.git en la carpeta que deseemos
 --------------------------------------------------------
 PARA TRAER LOS CAMBIOS DESDE LA CONSOLA BASH CMD A NUESTRA MAQUINA
 git pull origin master
+--------------------------------------------------------
+En resumen git init //crea el repositorio
+git config user.name "hanSolo" //agrega nuestra identidad username
+git config user.email "hanSolo@starwars.com" // agrega nuestra identidad email
+git remote add origin https://github.com/alecebado/DHPRUEBA.git //apunta al repositorio remoto
