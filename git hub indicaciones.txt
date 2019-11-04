@@ -18,8 +18,8 @@ git config --global user.email "alejandro.voynich@gmail.com"
 (git config --global corp.editor notepad.exe)
 git config --list
 ------------------------------------------------------
-# Primero, debermos crear un directorio vacío, donde
-# trabajaremos con la última versión de nuestros archivos 
+# Primero, debermos crear un directorio vacÃ­o, donde
+# trabajaremos con la Ãºltima versiÃ³n de nuestros archivos 
 # (llamada copia de trabajo).
 $ mkdir curriculum
 # Segundo, navegaremos hacia el nuevo directorio
@@ -45,3 +45,5 @@ PARA CLONAR
 
 git clone https://github.com/alecebado/DHPRUEBA.git en la carpeta que deseemos
 --------------------------------------------------------
+PARA TRAER LOS CAMBIOS DESDE LA CONSOLA BASH CMD A NUESTRA MAQUINA
+git pull origin master
