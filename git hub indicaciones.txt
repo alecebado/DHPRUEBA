@@ -66,6 +66,12 @@ git log // detalles de todos los commit
 git config --global user.name "nombre de usuario" //para configurar global
 git checkout //para viajar a otro commit con los 7 primeros caracteres del id 
 git checkout master //vuelvo a la rama original
+git --amend poner al ultimo commit algo
+git remote get-url origin // para saber a donde se subió
+--------------------------------------------------------
+frontloops
+frontendmentor
+
 
 
 
