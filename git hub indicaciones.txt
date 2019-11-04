@@ -52,3 +52,6 @@ En resumen git init //crea el repositorio
 git config user.name "hanSolo" //agrega nuestra identidad username
 git config user.email "hanSolo@starwars.com" // agrega nuestra identidad email
 git remote add origin https://github.com/alecebado/DHPRUEBA.git //apunta al repositorio remoto
+git add. //agrega todos los cambios al repo local
+git commit -m "mensaje del comit" // hito histórico- comitea los cambios hechos
+git push origin master // manda los cambios al repositorio remoto
