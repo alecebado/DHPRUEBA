@@ -55,3 +55,9 @@ git remote add origin https://github.com/alecebado/DHPRUEBA.git //apunta al repo
 git add. //agrega todos los cambios al repo local
 git commit -m "mensaje del comit" // hito histórico- comitea los cambios hechos
 git push origin master // manda los cambios al repositorio remoto
+------------------------------------------------------------
+MATERIAL DE AYUDA
+https://dev.to/davedodea/git--commands-you-need-to-git-going-3mpg
+https://ohshitgit.com/
+https://git-scm.com/
+
