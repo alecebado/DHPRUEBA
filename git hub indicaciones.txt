@@ -61,3 +61,12 @@ https://dev.to/davedodea/git--commands-you-need-to-git-going-3mpg
 https://ohshitgit.com/
 https://git-scm.com/
 
+--------------------------------------------------------------
+git log // detalles de todos los commit
+git config --global user.name "nombre de usuario" //para configurar global
+git checkout //para viajar a otro commit con los 7 primeros caracteres del id 
+git checkout master //vuelvo a la rama original
+
+
+
+
