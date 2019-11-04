@@ -1,0 +1,47 @@
+para que todo lo que hagamos este firmado
+
+git config user.name "alecebado"(entrecomillas nuestro usuario de git hub)
+git config user.email "alejandro.voynich@gmail.com"(dentro de las comillas el usuario con el que nos registramos)
+
+creamos u repositorio en git hub le damos un nombre
+
+https://github.com/alecebado/DHPRUEBA.git
+
+PARA SUBIR NUESTROS ARCHIVOS DESDE EL REPOSITORIO LOCAL AL GIT
+
+git remote add origin https://github.com/user/repo.git
+
+------------------------------------------------------
+PARA CONFIGURAR NUESTRO MAIL
+git config --global user.name alecebado
+git config --global user.email "alejandro.voynich@gmail.com"
+(git config --global corp.editor notepad.exe)
+git config --list
+------------------------------------------------------
+# Primero, debermos crear un directorio vacío, donde
+# trabajaremos con la última versión de nuestros archivos 
+# (llamada copia de trabajo).
+$ mkdir curriculum
+# Segundo, navegaremos hacia el nuevo directorio
+$ cd curriculum
+# Tercero, iniciaremos un repositorio
+$ git init
+Initialized empty Git repository in /home/mumuki/curriculum/.git/
+--------------------------------------------------------
+
+git init en la carpeta de nuestra pc estando dentro
+(para inicializar este repositorio)
+git remote add origin https://github.com/alecebado/DHPRUEBA.git (para sincronizar las carpetas)
+copy con curriculum.txt para crear un archivo de texto
+git status (para saber el estado de nuestro archivos)
+--------------------------------------------------------
+PARA SUBIR LOS ARCHIVOS
+git add curriculum.txt (pone en escenario)
+git commit -m "primer commit"(empaqueta y -m deja un mensaje)
+git push origin master
+
+--------------------------------------------------------
+PARA CLONAR 
+
+git clone https://github.com/alecebado/DHPRUEBA.git en la carpeta que deseemos
+--------------------------------------------------------
